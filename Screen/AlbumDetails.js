@@ -32,6 +32,7 @@ const AlbumDescription = ({ artist, price, release, rights }) => (
     <Text style={styles.rights}>{rights}</Text>
   </View>
 );
+
 const styles = StyleSheet.create({
   albumDetails: {
     marginTop: 50,
